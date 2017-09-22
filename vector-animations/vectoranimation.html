@@ -1,0 +1,21 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>vectors </title>
+<link rel="stylesheet" type="text/css" href="vectorstyle.css" />
+<script src="vectoranimation.js"></script>
+</head>
+
+<body>
+
+<script>
+for(var icon in vectorstyle) {
+ console.log(icon);
+  document.body.innerHTML += '<div style="position: relative; margin:60px 158px; top:70px; left:0; float: left;">' +
+  vectorstyle[icon] + '</div>';
+}
+//document.body.innerHTML += vectrs.iconX;
+</script>
+</body>
+</html>
