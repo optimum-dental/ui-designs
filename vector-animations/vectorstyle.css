@@ -365,9 +365,18 @@ div[data-withintheblockchainstyle="default"] div[vectorimg="contentwrapper"] div
   height: 300px;
   position: absolute;
   margin: auto;
-  background-image: url(imgs/withinBlockChainVctr.png);
+  background-image: url(imgs/withinBlockChainVctr2.png);
   background-repeat: no-repeat;
   background-size: 300px;
+}
+div[data-withintheblockchainstyle="default"] div[vectorimg="contentwrapper"] div[vectorimg="shape1"]::before { 
+    width: 114px;
+    height: 114px;
+    position: absolute;
+    content: "";
+    left: 93px;
+    top: 92px;
+    border: 1px solid #3190c4;
    -webkit-animation-duration: 12s;
     animation-duration: 12s;
     -webkit-animation-timing-function: ease-in;
